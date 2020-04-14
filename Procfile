@@ -1,1 +1,1 @@
-web: /bin/sh -C "envsubst < dist/example_config.yaml > chihaya.yaml" && bin/chihaya --config chihaya.yaml
+web: /bin/sh -c "envsubst < dist/example_config.yaml > chihaya.yaml" && bin/chihaya --config chihaya.yaml
