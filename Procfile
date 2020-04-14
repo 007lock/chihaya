@@ -1,0 +1,1 @@
+web: /bin/sh -c "envsubst '\$PORT' < dist/example_config.yaml > chihaya.yaml && bin/chihaya --config chihaya.yaml
