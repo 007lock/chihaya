@@ -17,7 +17,7 @@ chihaya:
   http:
     # The network interface that will bind to an HTTP server for serving
     # BitTorrent traffic. Remove this to disable the non-TLS listener.
-    addr: "0.0.0.0:$PORT"
+    addr: "0.0.0.0:${PORT}"
 
     # The network interface that will bind to an HTTPS server for serving
     # BitTorrent traffic. If set, tls_cert_path and tls_key_path are required.
